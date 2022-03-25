@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Newsletter</title>
+    <link href="StyleSheetFilm.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <h1>Newsletter</h1>
+        <form action="Home.html">
+            <input id="home" type="submit" value="Home" />
+        </form>
+    </header>
+
+    <br />
+    <br />
+    <br />
+
+    <h4>Iscriviti alla newsletter per restare aggiornato su tutte le novità!</h4>
+
+    <br />
+    <br />
+    <form id="news">
+
+
+        <label>Nome</label>
+        <input placeholder="Mario" type="text" required id="storageKey" />
+
+        <br />
+        <br />
+
+        <label>Cognome</label>
+        <input type="text" placeholder="Rossi" required id="storageValue" />
+
+        <br />
+        <br />
+
+        <!--<label>Email</label>
+    <input type="email" placeholder="mario.rossi@mail.com" required />-->
+
+        <br />
+        <br />
+
+        <button onclick="subscribe()">Subscribe</button>
+        <button onclick="unsubscribe()">Unsubscribe</button>
+        <input type="reset" value="Reset" />
+    </form>
+
+
+
+    <footer>
+        Gaia Bertaglia
+    </footer>
+
+    <script src="Storage.js"></script>
+</body>
+</html>
